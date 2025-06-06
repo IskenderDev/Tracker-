@@ -99,7 +99,7 @@ export default function AddHabit({
         </button>
       </form>
       <p
-        className="cursor-pointer text-center text-zinc-300 underline"
+        className="cursor-pointer text-center text-zinc-600 underline"
         onClick={handleVisibility}
       >
         View current habits

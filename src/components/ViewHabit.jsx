@@ -124,7 +124,7 @@ export default function ViewHabit({
             })}
           </div>
           <button
-            className="rounded border border-zinc-500 p-3 text-zinc-400"
+            className="rounded border border-zinc-500 p-3 text-zinc-700"
             onClick={resetTrack}
           >
             Reset Track
