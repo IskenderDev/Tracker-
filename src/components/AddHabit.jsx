@@ -79,13 +79,13 @@ export default function AddHabit({
       className={`${visibility.AddHabit} flex min-h-screen flex-col justify-center gap-14 rounded-xl p-4 text-xl`}
     >
       <h1 className="text-center text-4xl">
-        <div>Minimalist</div>
-        <div>Habit Tracker</div>
+        <div>Минималистичный</div>
+        <div>трекер привычек</div>
       </h1>
       <form className="flex flex-col gap-14">
         <input
           type="text"
-          placeholder="Habit Name"
+          placeholder="Название привычки"
           className="rounded border border-zinc-700 bg-inherit p-2 text-xl"
           value={inputValue}
           onChange={handleInput}
@@ -95,14 +95,14 @@ export default function AddHabit({
           className="rounded bg-zinc-300 p-3 font-bold text-zinc-950"
           onClick={handleClick}
         >
-          Start Tracking
+          Начать отслеживание
         </button>
       </form>
       <p
         className="cursor-pointer text-center text-zinc-300 underline"
         onClick={handleVisibility}
       >
-        View current habits
+        Посмотреть текущие привычки
       </p>
     </div>
   );
