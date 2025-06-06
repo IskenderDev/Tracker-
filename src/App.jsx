@@ -34,7 +34,7 @@ export default function App() {
   }, [view]);
 
   return (
-    <div className="flex min-h-screen flex-row items-center justify-center gap-16 bg-zinc-950 text-gray-200">
+    <div className="flex min-h-screen flex-row items-center justify-center gap-16 bg-gray-100 text-zinc-800">
       <AddHabit
         habits={habits}
         setHabits={setHabits}
