@@ -25,7 +25,7 @@ export default function ViewHabit({
 
   const resetTrack = () => {
     const confirmed = window.confirm(
-      "Are you sure you want to reset the track?",
+      "Вы уверены, что хотите сбросить отметки?",
     );
     if (confirmed) {
       const track = {};
@@ -66,7 +66,7 @@ export default function ViewHabit({
       <div className="absolute left-4 top-4">
         <img
           src={iconBack}
-          alt="Go back icon"
+          alt="Иконка назад"
           className="cursor-pointer rounded-full border border-zinc-400 px-1 py-2"
           onClick={goBack}
         />
@@ -127,7 +127,7 @@ export default function ViewHabit({
             className="rounded border border-zinc-500 p-3 text-zinc-400"
             onClick={resetTrack}
           >
-            Reset Track
+            Сбросить отметки
           </button>
         </div>
       </div>

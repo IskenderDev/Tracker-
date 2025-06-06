@@ -38,7 +38,7 @@ export default function CurrentHabits({
       <div className="absolute left-4 top-4">
         <img
           src={iconBack}
-          alt="Go back icon"
+          alt="Иконка назад"
           className="cursor-pointer rounded-full border border-zinc-400 px-1 py-2"
           onClick={goBack}
         />
@@ -79,7 +79,7 @@ export default function CurrentHabits({
           className="bg-zinc-200 p-4 text-zinc-800"
           onClick={() => {
             const confirmed = window.confirm(
-              "Are you sure you want to delete all habits?",
+              "Вы уверены, что хотите удалить все привычки?",
             );
             if (confirmed) {
               setHabits([]);
@@ -88,7 +88,7 @@ export default function CurrentHabits({
             }
           }}
         >
-          Delete All Habits
+          Удалить все привычки
         </button>
       </div>
     </div>
